@@ -1,3 +1,3 @@
 #   Google Homepage
 [TheOdinProject](https://www.theodinproject.com/) - HTML and CSS Google Homepage Project
-[Website Demo] (https://phammings.github.io/google-homepage/)
+[Website Demo](https://phammings.github.io/google-homepage/)

@@ -75,8 +75,11 @@ a:hover {
 i {
     display: inline-flex;
     color: #9aa0a6;
-    padding: 15px 15px 10px 15px;
-    margin-top: 5px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+
     
 }
 .rightnav i:hover {
@@ -104,6 +107,7 @@ input {
     width: 500px;
     border: none;
     margin-top: -14px;
+    background-color: #fff;
 }
 .searchbkg:hover {
     background-color: #fff;
@@ -181,9 +185,60 @@ div.footer2 {
     justify-content: space-between;
 }
 
-/* Media Queries
+/* Media Queries */
 @media (max-width: 700px) {
-    footer {
-    align-items: center;
+    a, p, span, #français, i {
+        font-size: 17px;
+        }
+    .rightnav img {
+        height: 36px;
+        width: 36px;
+        }
+    .searchbkg {
+        margin-left: 40px;
+        }
+    .logo {
+        width: 20rem;
+        }
+    .footer2 {
+        flex-wrap: wrap;
+        }
+    div.footer2 {
+        justify-content: center;
+        }
     }
-}*/
+
+    @media (max-width: 658px) {
+        .searchbkg {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .btn1 {
+            padding-bottom: 50px;
+        }
+        .français {
+            padding-left: 32%;
+        }
+        .searchbkg {
+            margin-left: 40px;
+            margin-right: 40px;
+            width: 500px;
+            }
+        #search {
+            margin-top: -40px;
+            margin-left: 50px;
+            margin-right: 10px;
+        }
+        .search i {
+            margin-right: 85%;
+            margin-top: -20px;
+        }
+        .footer2 {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+}
